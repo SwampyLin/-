@@ -1,0 +1,256 @@
+.wrap {
+  width: 1024px;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url(../img/kao/Hero.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ffffff;
+  letter-spacing: 3.89px;
+  padding-top: 89px;
+  padding-left: 380px;
+}
+
+.list {
+  margin-left: 293px;
+  margin-top: 96px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid #ffffff;
+  border-radius: 3px;
+  width: 452px;
+  height: 48px;
+  font-size: 18px;
+  color: #000000;
+  line-height: 21px;
+}
+
+.popular {
+  background: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 800px;
+  height: 112px;
+  font-size: 18px;
+  color: #000000;
+  padding-top: 20px;
+  padding-left: 26px;
+  margin-top: 79px;
+  margin-left: 112px;
+  box-sizing: border-box;
+}
+
+.button {
+  border-radius: 5px;
+  width: 130px;
+  height: 42px;
+  font-size: 20px;
+  color: #ffffff;
+  border: #ffffff;
+  margin-top: 16px;
+  margin-left: 23px;
+  box-sizing: border-box;
+}
+
+.Lingya {
+  background: #8a82cc;
+}
+.Sanmin {
+  background: #ffa782;
+}
+.Sinsing {
+  background: #f5d005;
+}
+.Yancheng {
+  background: #559ac8;
+}
+.down {
+  margin-top: 30px;
+  height: 1px;
+  width: 900px;
+  margin-left: 62px;
+  background-image: linear-gradient(to right, #559ac8 50%, transparent 50%);
+  background-size: 9px 20px;
+}
+
+.down img {
+  position: relative;
+  top: -12px;
+  padding-left: 437px;
+  width: 24px;
+  height: 24px;
+}
+
+.block {
+  font-size: 36px;
+  color: #8a82cc;
+  padding-left: 458px;
+  padding-top: 65px;
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.attraction {
+  width: 464px;
+  box-sizing: border-box;
+  margin-left: 16px;
+  margin-bottom: 36px;
+}
+.banner {
+  width: 464px;
+  position: relative;
+  height: 155px;
+  overflow: hidden;
+}
+li .picture {
+  width: 464px;
+  position: relative;
+  z-index: 1;
+}
+li .Name {
+  z-index: 2;
+  position: absolute;
+  left: 18px;
+  bottom: 15px;
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+  width: fit-content;
+}
+li .Section {
+  z-index: 2;
+  position: absolute;
+  right: 26px;
+  bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+}
+.information {
+  background: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  line-height: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+  width: 464px;
+}
+.information img {
+  vertical-align: middle;
+}
+.pin,
+.clock,
+.phone,
+.tag {
+  display: flex;
+  margin-top: 15px;
+}
+.pin img {
+  height: 20px;
+}
+.clock img {
+  height: 18px;
+}
+.phone img {
+  height: 20px;
+  padding-left: 2px;
+}
+.tag img {
+  height: 20px;
+}
+.information p {
+  padding-left: 8px;
+}
+.pagination {
+  color: #4a4a4a;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 49px;
+}
+
+.pagination li {
+  padding-left: 26px;
+}
+.pagination a {
+  text-decoration: none;
+}
+
+.goTop {
+  position: fixed;
+  bottom: 5vw;
+  right: 5vw;
+  z-index: 3;
+}
+
+footer {
+  margin-top: 41px;
+  height: 90px;
+  background-color: #559ac8;
+  text-align: center;
+}
+footer p {
+  padding-top: 15px;
+  color: white;
+}
+footer .KaoGov {
+  padding: 20px;
+  color: #ffd366;
+}
+
+@media (max-width: 767px) {
+  .wrap {
+    width: 100%;
+  }
+  .hero {
+    background-size: 767px;
+  }
+  h1 {
+    padding-left: 300px;
+    padding-top: 65px;
+    font-size: 32px;
+  }
+  .list {
+    margin-left: 268px;
+    margin-top: 80px;
+    width: 273px;
+  }
+  .popular {
+    margin-top: 60px;
+    width: 270px;
+    height: 300px;
+    padding-left: 0px;
+    margin-left: 268px;
+  }
+  .popular p {
+    text-align: center;
+  }
+  .button {
+    width: 226px;
+  }
+  .down {
+    width: 613px;
+  }
+  .down img {
+    padding-left: 330px;
+  }
+  .block {
+    padding-left: 346px;
+    padding-top: 36px;
+  }
+}
